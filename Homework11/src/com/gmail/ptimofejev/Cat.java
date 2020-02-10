@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Cat {
 	String name;
 	int age;
-	String sex;
+	String gender;
 	String color;
 	double weight;
 	boolean aggressive;
@@ -15,11 +15,11 @@ public class Cat {
 
 	}
 
-	public Cat(String name, int age, String sex, String color, double weight, boolean aggressive, int[] position) {
+	public Cat(String name, int age, String gender, String color, double weight, boolean aggressive, int[] position) {
 		super();
 		this.name = name;
 		this.age = age;
-		this.sex = sex;
+		this.gender = gender;
 		this.color = color;
 		this.weight = weight;
 		this.aggressive = aggressive;
@@ -42,12 +42,12 @@ public class Cat {
 		this.age = age;
 	}
 
-	public String getSex() {
-		return sex;
+	public String getGender() {
+		return gender;
 	}
 
-	public void setSex(String sex) {
-		this.sex = sex;
+	public void setGender(String gender) {
+		this.gender = gender;
 	}
 
 	public String getColor() {
@@ -130,9 +130,8 @@ public class Cat {
 
 	@Override
 	public String toString() {
-		return "Cat [name=" + name + ", age=" + age + ", color=" + color + ", weight=" + weight + ", aggressive="
-				+ aggressive + ", position=" + Arrays.toString(position) + "]";
+		return "Cat [name=" + name + ", age=" + age + ", gender=" + gender + ", color=" + color + ", weight=" + weight
+				+ ", aggressive=" + aggressive + ", position=" + Arrays.toString(position) + "]";
 	}
-	
 	
 }
