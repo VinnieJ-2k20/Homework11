@@ -3,13 +3,13 @@ package com.gmail.ptimofejev;
 import java.util.Arrays;
 
 public class Cat {
-	String name;
-	int age;
-	String gender;
-	String color;
-	double weight;
-	boolean aggressive;
-	int[] position = new int[3];
+	private String name;
+	private int age;
+	private String gender;
+	private String color;
+	private double weight;
+	private boolean aggressive;
+	private int[] position = new int[3];
 
 	public Cat() {
 
